@@ -1,5 +1,10 @@
 import { FC } from 'react'
+import AudioRecorder from '../components/Audio/AudioRecorder'
 
 export const Main: FC = () => {
-  return <div>Main</div>
+  return (
+    <div>
+      <AudioRecorder />
+    </div>
+  )
 }
